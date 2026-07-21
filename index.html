@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>قاعة الأفراح الملكية | الرئيسية</title>
+<meta name="description" content="قاعة أفراح ومناسبات فاخرة - احجز قاعتك أونلاين بسهولة">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===================== الشريط العلوي ===================== -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-info">
+      <span data-i18n="topbar_phone">📞 اتصل بنا: 966500000000+</span>
+      <span data-i18n="topbar_hours">🕒 يوميًا من 9 صباحًا حتى 11 مساءً</span>
+    </div>
+    <span data-i18n="topbar_addr">📍 الرياض، المملكة العربية السعودية</span>
+  </div>
+</div>
+
+<!-- ===================== شريط التنقل ===================== -->
+<header class="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">ق</span>
+      <span class="brand-text"><strong>قاعة الأفراح الملكية</strong><small>ROYAL EVENT HALL</small></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" data-i18n="nav_home">الرئيسية</a>
+      <a href="halls.html" data-i18n="nav_halls">قاعاتنا</a>
+      <a href="booking.html" data-i18n="nav_booking">احجز الآن</a>
+      <a href="contact.html" data-i18n="nav_contact">تواصل معنا</a>
+      <a href="login.html" id="navLoginLink" data-i18n="nav_login">تسجيل الدخول</a>
+    </nav>
+
+    <div class="nav-tools">
+      <div class="theme-dots" title="تغيير لون الموقع">
+        <span class="theme-dot" data-t="royal"></span>
+        <span class="theme-dot" data-t="emerald"></span>
+        <span class="theme-dot" data-t="navy"></span>
+        <span class="theme-dot" data-t="dark"></span>
+      </div>
+      <button class="tool-btn" id="langBtn" title="Change language / تغيير اللغة">🌐 <span id="langBtnLabel">EN</span></button>
+      <div class="user-chip" id="navUserChip">
+        <span id="navUserName">👤</span>
+        <button class="logout-btn" id="navLogoutBtn" data-i18n="btn_logout">خروج</button>
+      </div>
+      <a href="booking.html" class="btn-primary" data-i18n="nav_cta">احجز قاعتك</a>
+      <button class="burger" id="burger" aria-label="فتح القائمة"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== الهيرو ===================== -->
+<section class="hero">
+  <div class="container">
+    <span class="hero-eyebrow" data-i18n="hero_eyebrow">قاعة مناسبات فاخرة منذ 2008</span>
+    <h1 data-i18n="hero_title">حيث تُكتب أجمل لحظاتكم في قاعة تليق بها</h1>
+    <p data-i18n="hero_desc">قاعة أفراح ومناسبات متكاملة بسعة تصل إلى 1200 ضيف، خدمات ضيافة راقية، وتنظيم احترافي من أول استشارة حتى آخر لحظة في حفلكم.</p>
+    <div class="hero-actions">
+      <a href="booking.html" class="btn-primary" data-i18n="hero_btn_book">احجز قاعتك الآن</a>
+      <a href="halls.html" class="btn-outline" style="color:#fff !important;border-color:#fff;" data-i18n="hero_btn_halls">استعرض القاعات</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="container">
+      <div class="stats-card">
+        <div class="stat"><b data-i18n="stat1_num">+1200</b><span data-i18n="stat1_lbl">مناسبة ناجحة</span></div>
+        <div class="stat"><b data-i18n="stat2_num">4</b><span data-i18n="stat2_lbl">قاعات فاخرة</span></div>
+        <div class="stat"><b data-i18n="stat3_num">98%</b><span data-i18n="stat3_lbl">رضا العملاء</span></div>
+        <div class="stat"><b data-i18n="stat4_num">15+</b><span data-i18n="stat4_lbl">سنة خبرة</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== المميزات ===================== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-i18n="feat_eyebrow">لماذا نحن</span>
+      <h2 data-i18n="feat_title">تجربة حجز متكاملة بلا تعقيد</h2>
+      <p data-i18n="feat_desc">نوفر لك كل ما تحتاجه لتنظيم مناسبة استثنائية تحت سقف واحد.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">💻</div>
+        <h3 data-i18n="feat1_t">حجز إلكتروني فوري</h3>
+        <p data-i18n="feat1_d">احجز قاعتك وتابع حالة طلبك أونلاين خطوة بخطوة دون الحاجة لزيارة مكتبنا.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎨</div>
+        <h3 data-i18n="feat2_t">تنسيق وديكور احترافي</h3>
+        <p data-i18n="feat2_d">فريق تصميم داخلي يحوّل القاعة لتعكس هوية مناسبتكم الخاصة.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🍽️</div>
+        <h3 data-i18n="feat3_t">ضيافة وتموين فاخر</h3>
+        <p data-i18n="feat3_d">قوائم طعام متنوعة تناسب جميع الأذواق مع إشراف شيف مختص.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🚗</div>
+        <h3 data-i18n="feat4_t">مواقف وخدمة صف سيارات</h3>
+        <p data-i18n="feat4_d">مواقف واسعة وخدمة صف السيارات لراحة ضيوفكم من أول لحظة.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔊</div>
+        <h3 data-i18n="feat5_t">نظام صوتي وإضاءة متطور</h3>
+        <p data-i18n="feat5_d">أنظمة صوت وإضاءة حديثة قابلة للتخصيص حسب طبيعة الحفل.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🤝</div>
+        <h3 data-i18n="feat6_t">دعم على مدار الحفل</h3>
+        <p data-i18n="feat6_d">منسق مناسبات مرافق طوال فعالياتكم لضمان سير كل التفاصيل بسلاسة.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📸</div>
+        <h3 data-i18n="feat7_t">تصوير فوتوغرافي وفيديو</h3>
+        <p data-i18n="feat7_d">فريق تصوير محترف يوثّق كل لحظة من مناسبتكم بجودة سينمائية عالية.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🧹</div>
+        <h3 data-i18n="feat8_t">تنظيف وتجهيز شامل</h3>
+        <p data-i18n="feat8_d">خدمة تنظيف وتجهيز كاملة قبل وبعد الحفل دون أي عبء إضافي عليكم.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== القاعات ===================== -->
+<section class="section section-soft" id="halls-preview">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-i18n="halls_eyebrow">قاعاتنا</span>
+      <h2 data-i18n="halls_title">اختر القاعة الأنسب لمناسبتك</h2>
+      <p data-i18n="halls_desc">أربع قاعات بمساحات وتصاميم مختلفة لتناسب كل حجم مناسبة وميزانية.</p>
+    </div>
+    <div class="halls-grid">
+      <div class="hall-card">
+        <div class="hall-img">
+          <span class="hall-badge" data-i18n="hall_capacity">السعة</span>
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800&auto=format&fit=crop" alt="القاعة الملكية">
+        </div>
+        <div class="hall-body">
+          <h3 data-i18n="hall1_name">القاعة الملكية</h3>
+          <p data-i18n="hall1_desc">الأفخم والأوسع، مثالية لحفلات الزفاف الكبرى.</p>
+          <div class="hall-meta"><span>👥 1200 <span data-i18n="hall_guests">ضيف</span></span><span>📐 850 م²</span></div>
+          <div class="hall-price">
+            <div><small data-i18n="hall_from">يبدأ من</small><br><b>25,000 ر.س</b></div>
+            <a href="booking.html" class="btn-outline" data-i18n="hall_book_btn">احجز هذه القاعة</a>
+          </div>
+        </div>
+      </div>
+      <div class="hall-card">
+        <div class="hall-img">
+          <img src="https://images.unsplash.com/photo-1478147427282-58a87a120781?q=80&w=800&auto=format&fit=crop" alt="قاعة اللؤلؤة">
+        </div>
+        <div class="hall-body">
+          <h3 data-i18n="hall2_name">قاعة اللؤلؤة</h3>
+          <p data-i18n="hall2_desc">تصميم عصري أنيق يناسب الحفلات المتوسطة والخطوبات.</p>
+          <div class="hall-meta"><span>👥 600 <span data-i18n="hall_guests">ضيف</span></span><span>📐 480 م²</span></div>
+          <div class="hall-price">
+            <div><small data-i18n="hall_from">يبدأ من</small><br><b>15,000 ر.س</b></div>
+            <a href="booking.html" class="btn-outline" data-i18n="hall_book_btn">احجز هذه القاعة</a>
+          </div>
+        </div>
+      </div>
+      <div class="hall-card">
+        <div class="hall-img">
+          <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=800&auto=format&fit=crop" alt="قاعة الياسمين">
+        </div>
+        <div class="hall-body">
+          <h3 data-i18n="hall3_name">قاعة الياسمين</h3>
+          <p data-i18n="hall3_desc">أجواء دافئة تناسب المناسبات العائلية الخاصة.</p>
+          <div class="hall-meta"><span>👥 300 <span data-i18n="hall_guests">ضيف</span></span><span>📐 260 م²</span></div>
+          <div class="hall-price">
+            <div><small data-i18n="hall_from">يبدأ من</small><br><b>9,000 ر.س</b></div>
+            <a href="booking.html" class="btn-outline" data-i18n="hall_book_btn">احجز هذه القاعة</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:2.5rem;">
+      <a href="halls.html" class="btn-primary" data-i18n="view_all_halls">عرض جميع القاعات</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== آراء العملاء ===================== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-i18n="test_eyebrow">آراء عملائنا</span>
+      <h2 data-i18n="test_title">قصص نجاح تشرفنا بها</h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <p data-i18n="test1">تنظيم استثنائي وفريق متعاون منذ أول اتصال حتى نهاية الحفل، كل شيء كان مثاليًا.</p>
+        <div class="testimonial-person">
+          <div class="avatar">س.ع</div>
+          <div><strong data-i18n="test1_name">سارة العتيبي</strong><div class="stars">★★★★★</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p data-i18n="test2">القاعة فخمة والديكور فاق توقعاتنا، أنصح بها بشدة لكل عروس تبحث عن التميز.</p>
+        <div class="testimonial-person">
+          <div class="avatar">م.ق</div>
+          <div><strong data-i18n="test2_name">محمد القحطاني</strong><div class="stars">★★★★★</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p data-i18n="test3">الحجز الإلكتروني سهّل علينا كل شيء، تابعنا الحجز خطوة بخطوة دون أي عناء.</p>
+        <div class="testimonial-person">
+          <div class="avatar">ن.ش</div>
+          <div><strong data-i18n="test3_name">نورة الشمري</strong><div class="stars">★★★★★</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p data-i18n="test4">فريق الضيافة كان في قمة الاحترافية، وضيوفنا أشادوا بجودة الطعام وسرعة التقديم طوال الحفل.</p>
+        <div class="testimonial-person">
+          <div class="avatar">ف.ح</div>
+          <div><strong data-i18n="test4_name">فهد الحربي</strong><div class="stars">★★★★★</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p data-i18n="test5">من أول جولة داخل القاعة قررنا الحجز فورًا، الإضاءة والديكور خلقوا أجواء لا تُنسى في حفل خطوبتنا.</p>
+        <div class="testimonial-person">
+          <div class="avatar">ل.م</div>
+          <div><strong data-i18n="test5_name">لمى المطيري</strong><div class="stars">★★★★★</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== الأسئلة الشائعة ===================== -->
+<section class="section section-soft">
+  <div class="container" style="max-width:800px;">
+    <div class="section-head">
+      <span class="eyebrow" data-i18n="faq_eyebrow">الأسئلة الشائعة</span>
+      <h2 data-i18n="faq_title">كل ما تحتاج معرفته</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item open">
+        <div class="faq-q"><span data-i18n="faq1_q">كم يجب أن أحجز مسبقًا؟</span><span class="plus">+</span></div>
+        <div class="faq-a" data-i18n="faq1_a">ننصح بالحجز قبل 3 إلى 6 أشهر من موعد المناسبة لضمان توفر القاعة والتاريخ المطلوب، خصوصًا في مواسم الأعياد والصيف.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span data-i18n="faq2_q">هل يمكن إلغاء أو تعديل الحجز؟</span><span class="plus">+</span></div>
+        <div class="faq-a" data-i18n="faq2_a">نعم، يمكن تعديل موعد الحجز مجانًا مرة واحدة قبل 14 يومًا من الموعد، ويخضع الإلغاء لسياسة استرجاع حسب مدة الإشعار.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span data-i18n="faq3_q">هل تشمل الأسعار الضيافة والديكور؟</span><span class="plus">+</span></div>
+        <div class="faq-a" data-i18n="faq3_a">توجد باقات تشمل الضيافة والديكور الأساسي، ويمكن إضافة خدمات مخصصة حسب رغبتكم عند الحجز.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span data-i18n="faq4_q">ما وسائل الدفع المتاحة؟</span><span class="plus">+</span></div>
+        <div class="faq-a" data-i18n="faq4_a">نقبل الدفع عبر التحويل البنكي، بطاقات مدى وفيزا وماستركارد، مع إمكانية الدفع على دفعتين.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span data-i18n="faq5_q">هل يمكن إحضار مصور خارجي خاص بنا؟</span><span class="plus">+</span></div>
+        <div class="faq-a" data-i18n="faq5_a">نعم، يمكن إحضار مصور خاص بكم مع إخطارنا مسبقًا، أو الاستعانة بفريق التصوير المعتمد لدينا للحصول على خصم إضافي.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span data-i18n="faq6_q">هل تتوفر غرفة خاصة للعروسين أو الاستقبال؟</span><span class="plus">+</span></div>
+        <div class="faq-a" data-i18n="faq6_a">جميع قاعاتنا مزودة بغرف استقبال خاصة مجهزة بالكامل لراحة العروسين أو صاحب المناسبة وضيوفهم الخاصين.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== الفوتر ===================== -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand">
+          <span class="brand-mark">ق</span>
+          <span class="brand-text" style="color:#fff;"><strong style="color:#fff;">قاعة الأفراح الملكية</strong><small style="color:#cfc0ab;">ROYAL EVENT HALL</small></span>
+        </div>
+        <p data-i18n="footer_about_d">قاعة مناسبات رائدة في تنظيم الأفراح والمناسبات الخاصة بأعلى مستوى من الفخامة والاحترافية منذ عام 2008.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="Twitter">🐦</a>
+          <a href="#" aria-label="WhatsApp">💬</a>
+          <a href="#" aria-label="Snapchat">👻</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_links_t">روابط سريعة</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="nav_home">الرئيسية</a></li>
+          <li><a href="halls.html" data-i18n="nav_halls">قاعاتنا</a></li>
+          <li><a href="booking.html" data-i18n="nav_booking">احجز الآن</a></li>
+          <li><a href="contact.html" data-i18n="nav_contact">تواصل معنا</a></li>
+          <li><a href="login.html" data-i18n="nav_login">تسجيل الدخول</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_services_t">خدماتنا</h4>
+        <ul>
+          <li><a href="#" data-i18n="footer_service1">تنظيم حفلات الزفاف</a></li>
+          <li><a href="#" data-i18n="footer_service2">حفلات الخطوبة</a></li>
+          <li><a href="#" data-i18n="footer_service3">المناسبات الخاصة</a></li>
+          <li><a href="#" data-i18n="footer_service4">المؤتمرات والفعاليات</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_contact_t">تواصل معنا</h4>
+        <ul>
+          <li><span data-i18n="topbar_addr">📍 الرياض، المملكة العربية السعودية</span></li>
+          <li><span data-i18n="topbar_phone">📞 اتصل بنا: 966500000000+</span></li>
+          <li><span>✉️ info@royal-hall.example.com</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span class="current-year">2026</span> <span data-i18n="hero_eyebrow_short">قاعة الأفراح الملكية</span> — <span data-i18n="footer_rights">جميع الحقوق محفوظة</span>.</span>
+      <span><a href="#" data-i18n="footer_privacy">سياسة الخصوصية</a> · <a href="#" data-i18n="footer_terms">الشروط والأحكام</a> · <span data-i18n="footer_made">تصميم وتطوير فريق التقنية</span></span>
+    </div>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop" aria-label="العودة للأعلى">↑</button>
+
+<script src="js/lang.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
